@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> Simple Interest </title>
+	
+		<link rel="stylesheet" href="./sicalculator.css"> <!---add the css extation files--->
+        <script src="sicalculator.js"></script>  <!---add the js extation files--->
+
+	</head>
+	<body>
+		<table align='center'>
+			
+            <tr><td colspan='2' align='center'>	<span id='txt'>Simple Interest Calculator</span></td></tr>
+			<tr>	<td align='right'><label for="Amt">Amount:</label></td>			  <td><input id='amt' name="Amt"  /></td>	</tr>
+			<tr>	<td align='right'><label for="rt">Rate:</label></td>		      <td><input id='rt'  name="rt"  /></td>	</tr>
+			<tr>	<td align='right'><label for="yr">No. of Years:</label></td>	  <td><input id='yr' name="yr"  /></td> 	</tr>
+            <tr>	<td colspan='2' align='center'><input type='button' onclick='si();' value='Compute Interest'   /></td>	    </tr>
+			<tr>	<td align='right'>Simple Interest:</td>		<td><input id='si'                                /></td>	    </tr>
+		</table>
+	</body>
+</html>
